@@ -1,26 +1,26 @@
 void main() {
   // Konversi dari Integer ke String
-  int ferdiAge = 21;
-  String ageAsString = ferdiAge.toString();
+  int AndilAge = 21;
+  String ageAsString = AndilAge.toString();
   print('Umur Andil dalam bentuk string: $ageAsString');
 
   // Konversi dari String ke Integer
-  String ferdiScore = "100";
-  int scoreAsInt = int.parse(ferdiScore);
+  String AndilScore = "100";
+  int scoreAsInt = int.parse(AndilScore);
   print('Skor Andil dalam bentuk integer: $scoreAsInt');
 
   // Konversi dari Double ke Integer
-  double ferdiHeight = 175.5;
-  int heightAsInt = ferdiHeight.toInt();
+  double AndilHeight = 175.5;
+  int heightAsInt = AndilHeight.toInt();
   print('Tinggi Andil dalam bentuk integer: $heightAsInt');
 
   // Konversi dari Boolean ke String
-  bool ferdiIsStudent = true;
-  String isStudentAsString = ferdiIsStudent.toString();
+  bool AndilIsStudent = true;
+  String isStudentAsString = AndilIsStudent.toString();
   print('Andil seorang mahasiswa: $isStudentAsString');
 
   // Konversi dari String ke Double
-  String ferdiWeight = "72.5";
-  double weightAsDouble = double.parse(ferdiWeight);
+  String AndilWeight = "72.5";
+  double weightAsDouble = double.parse(AndilWeight);
   print('Berat badan Andil dalam bentuk double: $weightAsDouble');
 }
