@@ -7,7 +7,7 @@ void main() {
   print('Nama nullable: ${nullableName ?? "Tidak ada nama"}');
 
   // Memberikan nilai pada variabel nullable
-  nullableName = 'John Doe';
+  nullableName = 'Andil Wan';
 
   // Menampilkan nilai setelah diisi
   print('Nama nullable: $nullableName');
