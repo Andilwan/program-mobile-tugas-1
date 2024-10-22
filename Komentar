@@ -1,6 +1,6 @@
 void main() {
   // Ini adalah komentar satu baris
-  String name = 'FERDI REO TANUWIDJAYA'; // Mendeklarasikan variabel nama
+  String name = 'ANDILWAN'; // Mendeklarasikan variabel nama
 
   /*
    * Ini adalah komentar beberapa baris.
