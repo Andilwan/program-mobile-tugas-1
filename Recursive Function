@@ -1,0 +1,17 @@
+void main() {
+  // Fungsi rekursif untuk menghitung faktorial
+  int calculateFactorial(int number) {
+    // Kasus dasar
+    if (number <= 1) {
+      return 1;
+    } else {
+      // Memanggil fungsi itu sendiri
+      return number * calculateFactorial(number - 1);
+    }
+  }
+
+  // Menggunakan fungsi rekursif
+  int myNumber = 5; // Misalnya, kita ingin menghitung faktorial dari 5
+  int result = calculateFactorial(myNumber);
+  print('Faktorial dari $myNumber adalah: $result'); // Output: Faktorial dari 5 adalah: 120
+}
