@@ -1,0 +1,10 @@
+// Mendefinisikan fungsi untuk mencetak nama lengkap
+void printFullName({required String firstName, String middleName = '', required String lastName}) {
+  // Menampilkan nama lengkap
+  print('Nama Lengkap: $firstName $middleName $lastName'.trim());
+}
+
+void main() {
+  // Memanggil fungsi printFullName dengan nama kamu
+  printFullName(firstName: 'Ferdi', middleName: 'Reo', lastName: 'Tanuwidjaya');
+}
