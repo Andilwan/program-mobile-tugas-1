@@ -1,0 +1,22 @@
+void main() {
+  // Membuat set dengan nama "Ferdi" untuk menyimpan nama-nama
+  Set<String> ferdiNames = {'Aji', 'Budi', 'Cici', 'Aji'}; // 'Aji' akan otomatis dihapus karena set tidak mengizinkan duplikasi
+
+  // Menampilkan isi set
+  print('Nama-nama dalam set Ferdi: ' + ferdiNames.toString());
+
+  // Menambahkan nama baru
+  ferdiNames.add('Doni');
+  print('Setelah menambahkan Doni: ' + ferdiNames.toString());
+
+  // Menghapus nama
+  ferdiNames.remove('Budi');
+  print('Setelah menghapus Budi: ' + ferdiNames.toString());
+
+  // Mengecek apakah nama ada dalam set
+  print('Apakah Cici ada dalam set? ' + (ferdiNames.contains('Cici') ? 'Ya' : 'Tidak'));
+  print('Apakah Aji ada dalam set? ' + (ferdiNames.contains('Aji') ? 'Ya' : 'Tidak'));
+
+  // Menampilkan jumlah nama dalam set
+  print('Jumlah nama dalam set Ferdi: ' + ferdiNames.length.toString());
+}
