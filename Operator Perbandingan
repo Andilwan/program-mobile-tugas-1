@@ -1,0 +1,20 @@
+void main() {
+  int a = 10;
+  int b = 5;
+
+  // Menggunakan operator perbandingan
+  bool isEqual = a == b;           // Sama dengan
+  bool isNotEqual = a != b;        // Tidak sama dengan
+  bool isGreater = a > b;          // Lebih besar
+  bool isLess = a < b;             // Lebih kecil
+  bool isGreaterOrEqual = a >= b;  // Lebih besar atau sama dengan
+  bool isLessOrEqual = a <= b;     // Lebih kecil atau sama dengan
+
+  // Menampilkan hasil
+  print('Apakah $a sama dengan $b? $isEqual');
+  print('Apakah $a tidak sama dengan $b? $isNotEqual');
+  print('Apakah $a lebih besar dari $b? $isGreater');
+  print('Apakah $a lebih kecil dari $b? $isLess');
+  print('Apakah $a lebih besar atau sama dengan $b? $isGreaterOrEqual');
+  print('Apakah $a lebih kecil atau sama dengan $b? $isLessOrEqual');
+}
