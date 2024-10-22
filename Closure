@@ -1,0 +1,23 @@
+void main() {
+  // Fungsi luar yang mengembalikan fungsi (closure)
+  Function createCounter() {
+    int count = 5; // Menggunakan nilai awal 5
+
+    // Closure yang mengincrement count dan mengembalikannya
+    return () {
+      count++;
+      return count;
+    };
+  }
+
+  // Membuat counter baru
+  var counter1 = createCounter();
+  print(counter1()); // Output: 6
+  print(counter1()); // Output: 7
+
+  // Membuat counter lain
+  var counter2 = createCounter();
+  print(counter2()); // Output: 6
+  print(counter1()); // Output: 8
+  print(counter2()); // Output: 7
+}
