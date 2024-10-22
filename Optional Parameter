@@ -1,0 +1,16 @@
+// Mendefinisikan fungsi dengan parameter opsional
+void introduce(String name, [int? age]) {
+  // Menampilkan pengenalan menggunakan parameter
+  print('Nama: $name');
+  if (age != null) {
+    print('Usia: $age tahun');
+  } else {
+    print('Usia: Tidak disebutkan');
+  }
+}
+
+void main() {
+  // Memanggil fungsi introduce dengan dan tanpa parameter opsional
+  introduce('Ferdi');          // Hanya nama
+  introduce('Reo', 21);       // Nama dan usia
+}
