@@ -1,0 +1,7 @@
+void main() {
+  bool isRaining = true;   // Deklarasi boolean
+  bool isSunny = false;
+
+  print('Apakah sedang hujan? $isRaining');
+  print('Apakah cerah? $isSunny');
+}
