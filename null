@@ -1,0 +1,17 @@
+void main() {
+  // Mendefinisikan variabel yang dapat bernilai null
+  String? name;
+  int? age;
+
+  // Menampilkan nilai awal yang null
+  print('Nama: ${name ?? "Tidak ada nama"}');
+  print('Umur: ${age ?? "Tidak ada umur"}');
+
+  // Memberikan nilai pada variabel
+  name = 'Ferdi Reo';
+  age = 21;
+
+  // Menampilkan nilai setelah diisi
+  print('Nama: ${name}');
+  print('Umur: ${age}');
+}
