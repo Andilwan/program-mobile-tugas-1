@@ -1,0 +1,6 @@
+void main() {
+  int number = 1;
+
+  bool isNonZero = number != 0;  // Nama variabel baru
+  print('Apakah number bukan 0? $isNonZero');
+}
