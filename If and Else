@@ -1,0 +1,14 @@
+void main() {
+  // Mendefinisikan nilai dan absensi
+  double finalScore = 80.0;
+  int attendance = 90;
+
+  // Menggunakan IF dan ELSE untuk menentukan kelulusan dan nilai huruf
+  if (finalScore >= 90 && attendance >= 80) {
+    print('Ferdi Reo LULUS dengan nilai A!');
+  } else if (finalScore >= 80 && attendance >= 80) {
+    print('Ferdi Reo LULUS dengan nilai B!');
+  } else {
+    print('Ferdi Reo TIDAK LULUS.');
+  }
+}
