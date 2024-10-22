@@ -1,0 +1,10 @@
+void main() {
+  // Inisialisasi variabel
+  int i = 1;
+
+  // Menggunakan DO WHILE LOOP untuk mencetak angka 1 hingga 15
+  do {
+    print('Angka: $i');
+    i++; // Increment i
+  } while (i <= 15);
+}
