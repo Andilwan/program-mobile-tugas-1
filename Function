@@ -1,0 +1,12 @@
+// Mendefinisikan fungsi sederhana
+int add(int a, int b) {
+  return a + b; // Mengembalikan hasil penjumlahan
+}
+
+void main() {
+  // Memanggil fungsi add dan menyimpan hasilnya dalam variabel
+  int result = add(5, 3);
+
+  // Menampilkan hasil
+  print('Hasil penjumlahan: $result');
+}
