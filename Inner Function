@@ -1,0 +1,18 @@
+// Mendefinisikan fungsi luar
+void outerFunction() {
+  // Mendefinisikan inner function
+  int innerFunction(int a, int b) {
+    return a + b; // Mengembalikan hasil penjumlahan
+  }
+
+  // Memanggil inner function
+  int result = innerFunction(5, 10);
+
+  // Menampilkan hasil
+  print('Hasil penjumlahan dari inner function: $result');
+}
+
+void main() {
+  // Memanggil fungsi luar
+  outerFunction();
+}
