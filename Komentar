@@ -1,0 +1,12 @@
+void main() {
+  // Ini adalah komentar satu baris
+  String name = 'FERDI REO TANUWIDJAYA'; // Mendeklarasikan variabel nama
+
+  /*
+   * Ini adalah komentar beberapa baris.
+   * Komentar ini bisa digunakan untuk menjelaskan
+   * logika yang lebih kompleks dalam kode.
+   */
+
+  print(name); // Mencetak nama ke konsol
+}
