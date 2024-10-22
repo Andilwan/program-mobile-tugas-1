@@ -1,0 +1,9 @@
+void main() {
+  bool a = true;
+  bool b = false;
+
+  // Menggunakan operator logika
+  print('a AND b: ${a && b}');   // false
+  print('a OR b: ${a || b}');    // true
+  print('NOT a: ${!a}');          // false
+}
