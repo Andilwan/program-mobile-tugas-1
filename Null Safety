@@ -1,7 +1,7 @@
 void main() {
   // Mendefinisikan variabel nullable dan non-nullable
   String? nullableName; // Variabel ini bisa bernilai null
-  String nonNullableName = 'Andilwan Wan'; // Variabel ini tidak bisa null
+  String nonNullableName = 'Andil Wan'; // Variabel ini tidak bisa null
 
   // Menampilkan nilai variabel nullable
   print('Nama nullable: ${nullableName ?? "Tidak ada nama"}');
