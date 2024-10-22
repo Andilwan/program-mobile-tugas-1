@@ -1,0 +1,24 @@
+void main() {
+  int a = 10;
+  int b = 5;
+
+  // Penjumlahan
+  int sum = a + b;
+  print('Hasil penjumlahan Ferdi: $a + $b = $sum');
+
+  // Pengurangan
+  int difference = a - b;
+  print('Hasil pengurangan Ferdi: $a - $b = $difference');
+
+  // Perkalian
+  int product = a * b;
+  print('Hasil perkalian Ferdi: $a * $b = $product');
+
+  // Pembagian
+  double quotient = a / b; // Pembagian menghasilkan double
+  print('Hasil pembagian Ferdi: $a / $b = $quotient');
+
+  // Sisa bagi (modulus)
+  int remainder = a % b;
+  print('Sisa bagi Ferdi: $a % $b = $remainder');
+}
