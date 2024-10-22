@@ -8,7 +8,7 @@ void main() {
   print('Umur: ${age ?? "Tidak ada umur"}');
 
   // Memberikan nilai pada variabel
-  name = 'Ferdi Reo';
+  name = 'Andil Wan';
   age = 21;
 
   // Menampilkan nilai setelah diisi
