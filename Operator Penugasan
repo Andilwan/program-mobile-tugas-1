@@ -1,0 +1,24 @@
+void main() {
+  int a = 10; // Penugasan nilai awal
+  int b = 5;  // Penugasan nilai awal
+
+  // Menggunakan operator penugasan dasar
+  a += b; // a = a + b
+  print('Nilai a setelah penugasan penjumlahan: $a'); // a sekarang 15
+
+  a -= b; // a = a - b
+  print('Nilai a setelah penugasan pengurangan: $a'); // a sekarang 10
+
+  a *= b; // a = a * b
+  print('Nilai a setelah penugasan perkalian: $a'); // a sekarang 50
+
+  a ~/= b; // a = a ~/ b (pembagian bulat)
+  print('Nilai a setelah penugasan pembagian bulat: $a'); // a sekarang 10
+
+  a %= b; // a = a % b (sisa bagi)
+  print('Nilai a setelah penugasan sisa bagi: $a'); // a sekarang 0
+
+  // Penugasan langsung
+  b = 3;
+  print('Nilai b setelah penugasan baru: $b');
+}
