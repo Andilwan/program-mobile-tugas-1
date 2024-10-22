@@ -1,10 +1,10 @@
 void main() {
-  dynamic ferdiData = 30;  // Memulai dengan nilai integer
-  print('Nilai awal Ferdi: $ferdiData, tipe: ${ferdiData.runtimeType}');
+  dynamic AndilData = 30;  // Memulai dengan nilai integer
+  print('Nilai awal Andil: $AndilData, tipe: ${AndilData.runtimeType}');
 
-  ferdiData = "Halo, saya Ferdi!";  // Mengubah menjadi string
-  print('Pesan baru Ferdi: $ferdiData, tipe: ${ferdiData.runtimeType}');
+  AndilData = "Halo, saya Andil!";  // Mengubah menjadi string
+  print('Pesan baru Andil: $AndilData, tipe: ${AndilData.runtimeType}');
 
-  ferdiData = [1, 2, 3, "empat"];  // Mengubah menjadi list
-  print('List baru Ferdi: $ferdiData, tipe: ${ferdiData.runtimeType}');
+  AndilData = [1, 2, 3, "empat"];  // Mengubah menjadi list
+  print('List baru Ferdi: $AndilData, tipe: ${AndilData.runtimeType}');
 }
