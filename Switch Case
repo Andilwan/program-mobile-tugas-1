@@ -8,16 +8,16 @@ void main() {
   switch (finalScore ~/ 10) {
     case 10:
     case 9:
-      result = 'Ferdi Reo LULUS dengan nilai A!';
+      result = 'Andil Wan LULUS dengan nilai A!';
       break;
     case 8:
-      result = 'Ferdi Reo LULUS dengan nilai B!';
+      result = 'Andil Wan LULUS dengan nilai B!';
       break;
     case 7:
-      result = 'Ferdi Reo LULUS dengan nilai C!';
+      result = 'Andil Wan LULUS dengan nilai C!';
       break;
     default:
-      result = 'Ferdi Reo TIDAK LULUS.';
+      result = 'Andil Wan TIDAK LULUS.';
   }
 
   print(result);
