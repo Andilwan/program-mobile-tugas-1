@@ -6,5 +6,5 @@ void main() {
   print('Pesan baru Andil: $AndilData, tipe: ${AndilData.runtimeType}');
 
   AndilData = [1, 2, 3, "empat"];  // Mengubah menjadi list
-  print('List baru Ferdi: $AndilData, tipe: ${AndilData.runtimeType}');
+  print('List baru Andil: $AndilData, tipe: ${AndilData.runtimeType}');
 }
