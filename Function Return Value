@@ -1,0 +1,12 @@
+// Mendefinisikan fungsi untuk menjumlahkan dua angka
+int sum(int a, int b) {
+  return a + b; // Mengembalikan hasil penjumlahan
+}
+
+void main() {
+  // Memanggil fungsi sum dan menyimpan hasilnya dalam variabel
+  int result = sum(10, 20);
+
+  // Menampilkan hasil
+  print('Hasil penjumlahan: $result');
+}
