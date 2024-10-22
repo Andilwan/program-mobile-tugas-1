@@ -1,0 +1,16 @@
+void main() {
+  var ferdiName = "Ferdi"; // Tipe data String
+  var ferdiAge = 21;       // Tipe data int
+  var ferdiHeight = 175.5; // Tipe data double
+
+  // Menggunakan operator type test
+  print('Apakah ferdiName adalah String? ${ferdiName is String}'); // true
+  print('Apakah ferdiAge adalah int? ${ferdiAge is int}');         // true
+  print('Apakah ferdiHeight adalah double? ${ferdiHeight is double}'); // true
+  print('Apakah ferdiHeight adalah int? ${ferdiHeight is int}'); // false
+
+  // Menggunakan operator type test untuk memeriksa tipe dan cast
+  if (ferdiName is String) {
+    print('Nama saya adalah ' + ferdiName + ' dengan panjang ' + ferdiName.length.toString() + ' karakter.');
+  }
+}
