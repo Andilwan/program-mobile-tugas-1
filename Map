@@ -1,0 +1,28 @@
+void main() {
+  // Membuat beberapa map
+  Map<String, String> person = {};
+  var product = Map<String, String>();
+  var address = <String, String>{};
+
+  // Menampilkan map kosong
+  print('Map person: $person');
+  print('Map product: $product');
+  print('Map address: $address');
+
+  // Membuat map untuk menyimpan nama
+  var name = <String, String>{};
+  name['first'] = 'Ferdi';
+  name['middle'] = 'Reo';
+  name['last'] = 'Tanuwidjaya';
+
+  // Menampilkan nama depan
+  print('Nama depan: ${name['first']}');
+
+  // Memperbarui nama tengah
+  name['middle'] = 'Reo';
+  print('Map name setelah diperbarui: $name');
+
+  // Menghapus nama belakang
+  name.remove('last');
+  print('Map name setelah menghapus nama belakang: $name');
+}
