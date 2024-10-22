@@ -1,9 +1,9 @@
 // Variabel global
-String globalVariable = "Ini adalah variabel global: FERDI";
+String globalVariable = "Ini adalah variabel global: ANDIL";
 
 void main() {
   // Variabel lokal di dalam fungsi main
-  String localVariable = "Ini adalah variabel lokal di main: FERDI";
+  String localVariable = "Ini adalah variabel lokal di main: ANDIL";
 
   print(globalVariable); // Mengakses variabel global
   print(localVariable);  // Mengakses variabel lokal
@@ -13,7 +13,7 @@ void main() {
 
   // Memperlihatkan block scope
   {
-    String blockVariable = "Ini adalah variabel lokal di block: FERDI";
+    String blockVariable = "Ini adalah variabel lokal di block: ANDIL";
     print(blockVariable); // Mengakses variabel dalam block
   }
 
@@ -25,6 +25,6 @@ void printLocalVariable() {
   // Ini akan menghasilkan error karena localVariable tidak dapat diakses di sini
   // print(localVariable);
 
-  String functionVariable = "Ini adalah variabel lokal di fungsi: FERDI";
+  String functionVariable = "Ini adalah variabel lokal di fungsi: ANDIL";
   print(functionVariable); // Mengakses variabel lokal di dalam fungsi
 }
