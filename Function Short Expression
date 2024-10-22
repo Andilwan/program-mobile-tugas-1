@@ -1,0 +1,10 @@
+// Mendefinisikan fungsi panah untuk menjumlahkan dua angka
+int sum(int a, int b) => a + b; // Fungsi satu baris
+
+void main() {
+  // Memanggil fungsi sum dan menyimpan hasilnya dalam variabel
+  int result = sum(10, 20);
+
+  // Menampilkan hasil
+  print('Hasil penjumlahan: $result');
+}
