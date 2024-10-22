@@ -11,15 +11,15 @@ void main() {
 
   // Membuat map untuk menyimpan nama
   var name = <String, String>{};
-  name['first'] = 'Ferdi';
-  name['middle'] = 'Reo';
-  name['last'] = 'Tanuwidjaya';
+  name['first'] = 'Andil';
+  name['middle'] = 'Wan';
+  name['last'] = 'Andilwan';
 
   // Menampilkan nama depan
   print('Nama depan: ${name['first']}');
 
   // Memperbarui nama tengah
-  name['middle'] = 'Reo';
+  name['middle'] = 'Wan';
   print('Map name setelah diperbarui: $name');
 
   // Menghapus nama belakang
