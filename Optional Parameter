@@ -11,6 +11,6 @@ void introduce(String name, [int? age]) {
 
 void main() {
   // Memanggil fungsi introduce dengan dan tanpa parameter opsional
-  introduce('Ferdi');          // Hanya nama
-  introduce('Reo', 21);       // Nama dan usia
+  introduce('Andil');          // Hanya nama
+  introduce('Wan', 21);       // Nama dan usia
 }
