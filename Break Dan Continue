@@ -1,0 +1,20 @@
+void main() {
+  print('Menggunakan BREAK:');
+  // Menggunakan FOR LOOP dengan BREAK
+  for (int i = 1; i <= 15; i++) {
+    if (i == 10) {
+      print('Menghentikan loop pada angka: $i');
+      break; // Menghentikan loop jika i sama dengan 10
+    }
+    print('Angka: $i');
+  }
+
+  print('\nMenggunakan CONTINUE:');
+  // Menggunakan FOR LOOP dengan CONTINUE
+  for (int i = 1; i <= 15; i++) {
+    if (i % 2 == 0) {
+      continue; // Melanjutkan ke iterasi berikutnya jika i genap
+    }
+    print('Angka: $i'); // Mencetak hanya angka ganjil
+  }
+}
