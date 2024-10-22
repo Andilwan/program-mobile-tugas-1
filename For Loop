@@ -1,0 +1,6 @@
+void main() {
+  // Menggunakan FOR LOOP untuk mencetak angka 1 hingga 10
+  for (int i = 1; i <= 10; i++) {
+    print('Angka: $i');
+  }
+}
