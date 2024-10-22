@@ -1,21 +1,21 @@
 void main() {
-  // Membuat list dengan nama "Ferdi" untuk menyimpan daftar buku
-  List<String> ferdiBooks = ['Belajar Dart', 'Pemrograman Flutter', 'Pengembangan Web'];
+  // Membuat list dengan nama "Andil" untuk menyimpan daftar buku
+  List<String> AndilBooks = ['Belajar Dart', 'Pemrograman Flutter', 'Pengembangan Web'];
 
   // Menampilkan isi list
-  print('Daftar Buku Ferdi: ' + ferdiBooks.toString());
+  print('Daftar Buku Andil: ' + ferdiBooks.toString());
 
   // Menambahkan buku baru
-  ferdiBooks.add('Dasar-Dasar Algoritma');
-  print('Setelah menambahkan buku baru: ' + ferdiBooks.toString());
+  AndilBooks.add('Dasar-Dasar Algoritma');
+  print('Setelah menambahkan buku baru: ' + AndilBooks.toString());
 
   // Menghapus buku
-  ferdiBooks.remove('Pemrograman Flutter');
-  print('Setelah menghapus buku: ' + ferdiBooks.toString());
+  AndilBooks.remove('Pemrograman Flutter');
+  print('Setelah menghapus buku: ' + AndilBooks.toString());
 
   // Mengakses elemen list
-  print('Buku pertama Ferdi: ' + ferdiBooks[0]);
+  print('Buku pertama Andil: ' + AndilBooks[0]);
 
   // Menampilkan jumlah buku
-  print('Jumlah buku Ferdi: ' + ferdiBooks.length.toString());
+  print('Jumlah buku Andil: ' + AndilBooks.length.toString());
 }
