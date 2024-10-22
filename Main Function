@@ -1,0 +1,19 @@
+// Fungsi untuk menampilkan argumen yang diberikan
+void displayNames(List<String> names) {
+  print('Daftar Nama:');
+  for (var name in names) {
+    print(name); // Menampilkan setiap nama
+  }
+}
+
+// Fungsi utama yang merupakan titik awal eksekusi
+void main([List<String> arguments = const []]) {
+  // Memastikan ada argumen yang diberikan
+  if (arguments.isEmpty) {
+    print('Silakan masukkan nama-nama sebagai argumen.');
+    return; // Keluar jika tidak ada argumen
+  }
+
+  // Memanggil fungsi untuk menampilkan nama-nama yang diberikan
+  displayNames(arguments);
+}
