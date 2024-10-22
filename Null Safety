@@ -1,0 +1,19 @@
+void main() {
+  // Mendefinisikan variabel nullable dan non-nullable
+  String? nullableName; // Variabel ini bisa bernilai null
+  String nonNullableName = 'Ferdi Reo'; // Variabel ini tidak bisa null
+
+  // Menampilkan nilai variabel nullable
+  print('Nama nullable: ${nullableName ?? "Tidak ada nama"}');
+
+  // Memberikan nilai pada variabel nullable
+  nullableName = 'John Doe';
+
+  // Menampilkan nilai setelah diisi
+  print('Nama nullable: $nullableName');
+
+  // Menggunakan assert untuk memastikan variabel non-nullable tidak null
+  assert(nonNullableName != null, 'Nama tidak boleh null');
+  
+  print('Nama non-nullable: $nonNullableName');
+}
