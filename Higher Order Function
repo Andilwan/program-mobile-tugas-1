@@ -17,7 +17,7 @@ bool containsBadWord(String name) {
 
 // Fungsi utama yang merupakan titik awal eksekusi
 void main() {
-  List<String> names = ['FERDI GILA', 'FERDI REO', 'FERDI BAIK']; // Daftar nama
+  List<String> names = ['ANDIL GILA', 'ANDIL WAN', 'ANDIL BAIK']; // Daftar nama
 
   // Memfilter nama untuk menghapus yang mengandung kata buruk
   List<String> filteredNames = filterBadWords(names, containsBadWord);
