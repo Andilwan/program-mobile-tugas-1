@@ -1,0 +1,29 @@
+// Fungsi yang menerima fungsi lain sebagai argumen untuk memfilter kata buruk
+List<String> filterBadWords(List<String> names, Function(String) filterFunction) {
+  return names.where((name) => !filterFunction(name)).toList(); // Memfilter nama yang tidak mengandung kata buruk
+}
+
+// Fungsi untuk memeriksa apakah nama mengandung kata buruk
+bool containsBadWord(String name) {
+  // Daftar kata buruk
+  List<String> badWords = ['GILA'];
+  for (var badWord in badWords) {
+    if (name.toUpperCase().contains(badWord)) {
+      return true; // Mengembalikan true jika mengandung kata buruk
+    }
+  }
+  return false; // Mengembalikan false jika tidak mengandung kata buruk
+}
+
+// Fungsi utama yang merupakan titik awal eksekusi
+void main() {
+  List<String> names = ['FERDI GILA', 'FERDI REO', 'FERDI BAIK']; // Daftar nama
+
+  // Memfilter nama untuk menghapus yang mengandung kata buruk
+  List<String> filteredNames = filterBadWords(names, containsBadWord);
+
+  print('Nama setelah difilter:');
+  for (var name in filteredNames) {
+    print(name); // Menampilkan nama yang tidak mengandung kata buruk
+  }
+}
