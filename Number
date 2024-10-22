@@ -1,0 +1,13 @@
+void main() {
+  // Mendeklarasikan variabel angka
+  int age = 21; // Usia
+  double height = 1.75; // Tinggi dalam meter
+
+  // Menampilkan informasi
+  print('Usia: $age tahun');
+  print('Tinggi: $height meter');
+
+  // Menghitung dan menampilkan hasil
+  int nextAge = age + 1; // Menghitung usia tahun depan
+  print('Usia tahun depan: $nextAge tahun');
+}
