@@ -1,0 +1,10 @@
+void main() {
+  // Mendefinisikan nilai akhir
+  double finalScore = 85.0;
+
+  // Menggunakan Ternary Operator untuk menentukan kelulusan
+  String result = (finalScore >= 70) ? 'LULUS' : 'Silahkan coba lagi';
+
+  // Menampilkan hasil
+  print('Hasil: $result');
+}
